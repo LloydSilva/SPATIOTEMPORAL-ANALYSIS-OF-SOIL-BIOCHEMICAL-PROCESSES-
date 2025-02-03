@@ -15,8 +15,13 @@ The original grid provided for the collection of 625 samples, using a regular 25
 To simplify the grid description and data processing time, this unstructured grid was transformed into a structured grid. The solution was to add more points to the grid (corresponding to the missing points), thus obtaining a grid with a regular topology. However, so that these points did not “corrupt” the original structure, both in terms of the spatial reference and in terms of the data collected, fictitious points were created with the coordinates superimposed on those of the points that limit the grid corresponding to the data collection. Thus, these points are copies of the real points, making the grid have 625 points, but only 575 are distinct points and refer to the real samples. 
 
 Data file contains: 
+
 • 2 columns relating to the XX and YY coordinates of the grid points, that is, the points that identify the location of each of the samples. 
+
 • 1 column with the values collected for the Plant Functional Type. 
+
 • 1 column with the value of the Plant Species at each point on the grid. 
+
 • 4 columns with Ammonification samples. 
+
 • 4 columns with Nitrification samples. 
